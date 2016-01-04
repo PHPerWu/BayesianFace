@@ -1,0 +1,24 @@
+function  train2( )
+%TRAIN2 Summary of this function goes here
+%   Detailed explanation goes here
+
+    img0=imread('F:\1\4\1.png');
+    img=rgb2gray(img0);
+    sizeA=prod(size(img));
+    img=reshape(img', sizeA,1); %Convert it into a column vector
+    img_matrix =[img_matrix img]; % Put it into the image vector matrix
+    imgMatrixA =[imgMatrixA img]; %Put it into another matrix to calculate the intrapersonal difference
+ 
+
+    
+    img=imread(strfilepath);
+    sizeA=prod(size(img));
+    img=reshape(img', sizeA,1); %Convert it into a column vector
+    img_matrix =[img_matrix img];% Put it into the image vector matrix
+ 
+    imgMatrixB =[imgMatrixB img];%Put it into another matrix to calculate the intrapersonal difference
+ 
+end
+
+end
+
